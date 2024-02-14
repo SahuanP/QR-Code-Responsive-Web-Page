@@ -1,0 +1,64 @@
+@font-face {
+  font-family: outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main-content {
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  font-family: outfit;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+  width: 300px;
+}
+
+.image {
+  text-align: center;
+  padding: 20px;
+  position: inherit;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  position: inherit;
+  width: 80%;
+  text-align: center;
+}
+
+.text {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  width: 80%;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.attribution {
+  margin-top: 30px;
+}
